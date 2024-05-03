@@ -1,0 +1,15 @@
+[Unit]
+Description=Mi Servicio Node.js
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/node /home/isaacmelendez/helloNode/node.js
+WorkingDirectory=/home/isaacmelendez/helloNode
+Restart=always
+RestartSec=10
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=node-app
+
+[Install]
+WantedBy=multi-user.target
