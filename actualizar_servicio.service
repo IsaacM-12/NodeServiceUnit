@@ -3,10 +3,10 @@ Description=Actualizar Servicio
 
 [Service]
 Type=oneshot
-ExecStart=/bin/bash -c "/home/isaacmelendez/helloNode/actualizar_servicio.sh"
-
-[Timer]
-OnUnitActiveSec=2min
+ExecStart=/bin/bash -c "/home/isaacmelendez/helloNode/actualizar_git_automatico.sh"
 
 [Install]
 WantedBy=multi-user.target
+
+[Timer]
+OnUnitActiveSec=2min

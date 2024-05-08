@@ -9,7 +9,3 @@ app.get('/', (req, res) => {
 app.listen(PORT, () => {
   console.log(`Servidor Express escuchando en el puerto ${PORT}`);
 });
-
-
-// /etc/systemd/system
-// /home/isaacmelendez/helloNode/mi_servicio.service

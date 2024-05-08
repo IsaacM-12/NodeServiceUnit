@@ -20,7 +20,7 @@ if git fetch origin "$BRANCH" && [ "$(git rev-list HEAD...origin/"$BRANCH" --cou
     git pull origin "$BRANCH"
 
     # Reiniciar la aplicación Node.js
-    pm2 restart <nombre_del_proceso_o_script>
+    pm2 restart node.js
 
     echo "La aplicación ha sido actualizada correctamente."
 else
