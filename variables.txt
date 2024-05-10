@@ -9,3 +9,5 @@ en mi pc
 /home/isaac/holaNode/NodeServiceUnit/actualizar_git_automatico.sh
 
 /home/isaac/holaNode/NodeServiceUnit
+
+/home/isaac/holaNode/NodeServiceUnit/inicio_automatico_NodeHola.service
