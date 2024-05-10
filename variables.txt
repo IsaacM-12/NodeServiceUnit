@@ -11,3 +11,7 @@ en mi pc
 /home/isaac/holaNode/NodeServiceUnit
 
 /home/isaac/holaNode/NodeServiceUnit/inicio_automatico_NodeHola.service
+
+/home/isaac/holaNode/NodeServiceUnit/actualizar_servicio.service
+
+/etc/systemd/system/inicio_automatico_NodeHola.service

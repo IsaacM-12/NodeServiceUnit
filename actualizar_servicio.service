@@ -1,12 +1,19 @@
 [Unit]
-Description=Actualizar Servicio
+Description=Actualización automática de Git cada 2 minutos
 
 [Service]
-Type=oneshot
+Type=simple
 ExecStart=/bin/bash /home/isaac/holaNode/NodeServiceUnit/actualizar_git_automatico.sh
+WorkingDirectory=/home/isaac/holaNode/NodeServiceUnit
+Restart=always
+RestartSec=10
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=node-app
+
+[Timer]
+OnCalendar=*:0/2
+Unit=actualizar_git_automatico.service
 
 [Install]
 WantedBy=multi-user.target
-
-[Timer]
-OnUnitActiveSec=2min
