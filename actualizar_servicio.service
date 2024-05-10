@@ -3,7 +3,7 @@ Description=Actualización automática de Git cada 2 minutos
 
 [Service]
 Type=simple
-ExecStart=/bin/bash /home/isaac/shTemp/actualizar_git_automatico.sh
+ExecStart=/bin/bash /home/isaac/holaNode/NodeServiceUnit/actualizar_git_automatico.sh
 WorkingDirectory=/home/isaac/holaNode/NodeServiceUnit
 Restart=always
 RestartSec=10
