@@ -3,3 +3,9 @@ corre en http://localhost:3000/
 
 // /etc/systemd/system
 // /home/isaacmelendez/helloNode/mi_servicio.service
+
+
+en mi pc
+/home/isaac/holaNode/NodeServiceUnit/actualizar_git_automatico.sh
+
+/home/isaac/holaNode/NodeServiceUnit

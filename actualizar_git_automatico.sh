@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Ruta del directorio de tu aplicación Node.js
-APP_DIRECTORY="/home/isaacmelendez/helloNode"
+APP_DIRECTORY="/home/isaac/holaNode/NodeServiceUnit"
 
 # Rama del repositorio que deseas verificar
 BRANCH="Deployment"

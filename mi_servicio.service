@@ -3,8 +3,8 @@ Description=Mi Servicio Node.js
 After=network.target
 
 [Service]
-ExecStart=/usr/bin/node /home/isaacmelendez/helloNode/node.js
-WorkingDirectory=/home/isaacmelendez/helloNode
+ExecStart=/usr/bin/node /home/isaac/holaNode/NodeServiceUnit/node.js
+WorkingDirectory=/home/isaac/holaNode/NodeServiceUnit
 Restart=always
 RestartSec=10
 StandardOutput=syslog
